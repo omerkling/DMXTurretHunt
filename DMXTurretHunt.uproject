@@ -1,0 +1,31 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.25",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "TestDMX",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "DMXEngine",
+			"Enabled": true
+		},
+		{
+			"Name": "DMXFixtures",
+			"Enabled": true
+		},
+		{
+			"Name": "DMXProtocol",
+			"Enabled": true
+		},
+		{
+			"Name": "MIDIDevice",
+			"Enabled": true
+		}
+	]
+}
